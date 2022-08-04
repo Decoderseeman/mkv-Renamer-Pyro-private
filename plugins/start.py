@@ -92,7 +92,7 @@ async def cb_handler(client, query: CallbackQuery):
             text=mr.HELP_TXT,
             reply_markup=InlineKeyboardMarkup( [[
                #⚠️ don't change source code & source link ⚠️ #
-               InlineKeyboardButton("❣️ 𝚂𝙾𝚄𝚁𝙲𝙴 ❣️", url="https://t.me/ajay_king_x")
+               InlineKeyboardButton("❣️ 𝚂𝙾𝚄𝚁𝙲𝙴 ❣️", callback_data='source')
                ],[
                InlineKeyboardButton("🔒 𝙲𝙻𝙾𝚂𝙴 🔒", callback_data = "close")
                ]]
@@ -121,6 +121,15 @@ async def cb_handler(client, query: CallbackQuery):
                ],[
                InlineKeyboardButton("🖥️ 𝙷𝙾𝚆 𝚃𝙾 𝙼𝙰𝙺𝙴 🖥️", url="https://t.me/ajay_king_x")
                ],[
+               InlineKeyboardButton("🔒 𝙲𝙻𝙾𝚂𝙴 🔒", callback_data = "close")
+               ]]
+            )
+        )
+    elif data == "source":
+        await query.message.edit_text(
+            text=mr.SOURCE_TXT,
+            reply_markup=InlineKeyboardMarkup( [[
+               #⚠️ don't change source code & source link ⚠️ #
                InlineKeyboardButton("🔒 𝙲𝙻𝙾𝚂𝙴 🔒", callback_data = "close")
                ]]
             )
