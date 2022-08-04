@@ -52,7 +52,7 @@ async def start(client, message):
                 InlineKeyboardButton('🔰 𝙼𝙰𝙸𝙽 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 🔰', url='https://t.me/mkv_blasters')
                 ],[
                 InlineKeyboardButton('🇳🇱 𝙷𝙾𝙻𝙻𝚈𝚆𝙾𝙾𝙳 🇳🇱', url='https://t.me/mkv_hollywood'),
-                InlineKeyboardButton('💿 𝙿𝚁𝙴𝙳𝚅𝙳 💿' url='https://t.me/mkv_predvdhub')
+                InlineKeyboardButton('💿 𝙿𝚁𝙴𝙳𝚅𝙳 💿', url='https://t.me/mkv_predvdhub')
                 ],[
                 InlineKeyboardButton('🍻 𝙰𝙱𝙾𝚄𝚃 🍻', callback_data='about'),
                 InlineKeyboardButton('ℹ️ 𝙷𝙴𝙻𝙿 ℹ️', callback_data='help')
@@ -89,7 +89,7 @@ async def cb_handler(client, query: CallbackQuery):
                 InlineKeyboardButton('🔰 𝙼𝙰𝙸𝙽 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 🔰', url='https://t.me/mkv_blasters')
                 ],[
                 InlineKeyboardButton('🇳🇱 𝙷𝙾𝙻𝙻𝚈𝚆𝙾𝙾𝙳 🇳🇱', url='https://t.me/mkv_hollywood'),
-                InlineKeyboardButton('💿 𝙿𝚁𝙴𝙳𝚅𝙳 💿' url='https://t.me/mkv_predvdhub')
+                InlineKeyboardButton('💿 𝙿𝚁𝙴𝙳𝚅𝙳 💿', url='https://t.me/mkv_predvdhub')
                 ],[
                 InlineKeyboardButton('🍻 𝙰𝙱𝙾𝚄𝚃 🍻', callback_data='about'),
                 InlineKeyboardButton('ℹ️ 𝙷𝙴𝙻𝙿 ℹ️', callback_data='help')
