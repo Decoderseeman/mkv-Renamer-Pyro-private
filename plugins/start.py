@@ -29,7 +29,7 @@ from helper.txt import mr
 from helper.database import insert 
 from helper.utils import not_subscribed 
 
-START_PIC = environ.get("START_PIC", "https://telegra.ph/file/27e9ed6b222498bd1c177.jpg")
+START_PIC = environ.get("START_PIC", "https://telegra.ph/file/6a84571de53671d674a2b.jpg")
 
 @Client.on_message(filters.private & filters.create(not_subscribed))
 async def is_not_subscribed(client, message):
@@ -42,12 +42,17 @@ async def start(client, message):
     insert(int(message.chat.id))
     await message.reply_photo(
        photo=START_PIC,
-       caption=f"""👋 <b>𝙷𝙰𝙸</b> {message.from_user.mention} \n\n<b>𝙸 𝙰𝙼 𝙰 𝙿𝙾𝚆𝙴𝚁𝙵𝚄𝙻𝙻 𝚁𝙴𝙽𝙰𝙼𝙴𝚁 𝙱𝙾𝚃 𝚆𝙸𝚃𝙷 𝙲𝚄𝚂𝚃𝙾𝙼 𝙲𝙰𝙿𝚃𝙸𝙾𝙽 & 𝙿𝙴𝚁𝙼𝙰𝙽𝙴𝙽𝚃 𝚃𝙷𝚄𝙼𝙱𝙽𝙰𝙸𝙻 𝚂𝚄𝙿𝙿𝙾𝚁𝚃...🧑‍💻</b>\n\n😎<b>𝙼𝚈 𝙾𝚆𝙽𝙴𝚁  :</b> <b><a href=https://t.me/ajay_king_x>♚ᴀᴊᴀʏ♚</a></b>""",
+       caption=f"""👋 <b>𝙷𝙰𝙸</b> {message.from_user.mention} \n\n<b>𝙸 𝙰𝙼 𝙰 𝙿𝙾𝚆𝙴𝚁𝙵𝚄𝙻𝙻 𝚁𝙴𝙽𝙰𝙼𝙴𝚁 𝙱𝙾𝚃 𝚆𝙸𝚃𝙷 𝙲𝚄𝚂𝚃𝙾𝙼 𝙲𝙰𝙿𝚃𝙸𝙾𝙽 & 𝙿𝙴𝚁𝙼𝙰𝙽𝙴𝙽𝚃 𝚃𝙷𝚄𝙼𝙱𝙽𝙰𝙸𝙻 𝚂𝚄𝙿𝙿𝙾𝚁𝚃...🧑‍💻</b>\n\n😎<b>𝙼𝚈 𝙾𝚆𝙽𝙴𝚁  :</b> <b><a href=https://t.me/themastertheblaster>❣️ ∂εcσ∂εɾ รεεɱαɳ ❣️</a></b>""",
        reply_markup=InlineKeyboardMarkup( [[
                 InlineKeyboardButton("👼 𝙳𝙴𝚅𝚂 👼", callback_data='dev')                
                 ],[
-                InlineKeyboardButton('📢 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 📢', url='https://t.me/Tamil_movie_studio'),
-                InlineKeyboardButton('🍿 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 🍿', url='https://t.me/+8LCFCFGUy_JlNDhl')
+                InlineKeyboardButton('🎥 𝙼𝙾𝚅𝙸𝙴𝚂 🎥', url='https://t.me/mkv_movieshub'),
+                InlineKeyboardButton('🤖 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 🤖', url='https://t.me/mkv_bots')
+                ],[
+                InlineKeyboardButton('🔰 𝙼𝙰𝙸𝙽 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 🔰', url='https://t.me/mkv_blasters')
+                ],[
+                InlineKeyboardButton('🇳🇱 𝙷𝙾𝙻𝙻𝚈𝚆𝙾𝙾𝙳 🇳🇱', url='https://t.me/mkv_hollywood'),
+                InlineKeyboardButton('💿 𝙿𝚁𝙴𝙳𝚅𝙳 💿' url='https://t.me/mkv_predvdhub')
                 ],[
                 InlineKeyboardButton('🍻 𝙰𝙱𝙾𝚄𝚃 🍻', callback_data='about'),
                 InlineKeyboardButton('ℹ️ 𝙷𝙴𝙻𝙿 ℹ️', callback_data='help')
@@ -74,12 +79,17 @@ async def cb_handler(client, query: CallbackQuery):
     data = query.data 
     if data == "start":
         await query.message.edit_text(
-            text=f"""👋 <b>𝙷𝙰𝙸</b> {message.from_user.mention} \n\n<b>𝙸 𝙰𝙼 𝙰 𝙿𝙾𝚆𝙴𝚁𝙵𝚄𝙻𝙻 𝚁𝙴𝙽𝙰𝙼𝙴𝚁 𝙱𝙾𝚃 𝚆𝙸𝚃𝙷 𝙲𝚄𝚂𝚃𝙾𝙼 𝙲𝙰𝙿𝚃𝙸𝙾𝙽 & 𝙿𝙴𝚁𝙼𝙰𝙽𝙴𝙽𝚃 𝚃𝙷𝚄𝙼𝙱𝙽𝙰𝙸𝙻 𝚂𝚄𝙿𝙿𝙾𝚁𝚃...🧑‍💻</b>\n\n😎<b>𝙼𝚈 𝙾𝚆𝙽𝙴𝚁  :</b> <b><a href=https://t.me/ajay_king_x>♚ᴀᴊᴀʏ♚</a></b>""",
+            text=f"""👋 <b>𝙷𝙰𝙸</b> {message.from_user.mention} \n\n<b>𝙸 𝙰𝙼 𝙰 𝙿𝙾𝚆𝙴𝚁𝙵𝚄𝙻𝙻 𝚁𝙴𝙽𝙰𝙼𝙴𝚁 𝙱𝙾𝚃 𝚆𝙸𝚃𝙷 𝙲𝚄𝚂𝚃𝙾𝙼 𝙲𝙰𝙿𝚃𝙸𝙾𝙽 & 𝙿𝙴𝚁𝙼𝙰𝙽𝙴𝙽𝚃 𝚃𝙷𝚄𝙼𝙱𝙽𝙰𝙸𝙻 𝚂𝚄𝙿𝙿𝙾𝚁𝚃...🧑‍💻</b>\n\n😎<b>𝙼𝚈 𝙾𝚆𝙽𝙴𝚁  :</b> <b><a href=https://t.me/themastertheblaster>❣️ ∂εcσ∂εɾ รεεɱαɳ ❣️</a></b>""",
             reply_markup=InlineKeyboardMarkup( [[
                 InlineKeyboardButton("👼 𝙳𝙴𝚅𝚂 👼", callback_data='dev')                
                 ],[
-                InlineKeyboardButton('📢 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 📢', url='https://t.me/Tamil_movie_studio'),
-                InlineKeyboardButton('🍿 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 🍿', url='https://t.me/+8LCFCFGUy_JlNDhl')
+                InlineKeyboardButton('🎥 𝙼𝙾𝚅𝙸𝙴𝚂 🎥', url='https://t.me/mkv_movieshub'),
+                InlineKeyboardButton('🤖 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 🤖', url='https://t.me/mkv_bots')
+                ],[
+                InlineKeyboardButton('🔰 𝙼𝙰𝙸𝙽 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 🔰', url='https://t.me/mkv_blasters')
+                ],[
+                InlineKeyboardButton('🇳🇱 𝙷𝙾𝙻𝙻𝚈𝚆𝙾𝙾𝙳 🇳🇱', url='https://t.me/mkv_hollywood'),
+                InlineKeyboardButton('💿 𝙿𝚁𝙴𝙳𝚅𝙳 💿' url='https://t.me/mkv_predvdhub')
                 ],[
                 InlineKeyboardButton('🍻 𝙰𝙱𝙾𝚄𝚃 🍻', callback_data='about'),
                 InlineKeyboardButton('ℹ️ 𝙷𝙴𝙻𝙿 ℹ️', callback_data='help')
