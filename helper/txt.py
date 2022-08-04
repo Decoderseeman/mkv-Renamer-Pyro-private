@@ -33,7 +33,7 @@ class mr(object):
     ABOUT_TXT = """
 ╭━━━━❰<b> ᴀʙᴏᴜᴛ ᴍᴇ </b>❱━➣
 ├🤖 <b>𝙼𝚈 𝙽𝙰𝙼𝙴</b> <b>:</b> {}
-├👑 <b>𝙾𝚆𝙽𝙴𝚁</b> <b>:</b> <b><a href=https://t.me/ajay_king_x>♚ ᴀᴊᴀʏ ♚</a></b>
+├👑 <b>𝙾𝚆𝙽𝙴𝚁</b> <b>:</b> <b><a href=https://t.me/themastertheblaster>❣️ ∂εcσ∂εɾ รεεɱαɳ ❣️</a></b>
 ├👨‍💻 <b>𝙿𝚁𝙾𝙶𝚁𝙰𝙼𝙴𝚁</b> <b>:</b> <b><a href=https://t.me/mkv_bots>𝙼𝙺𝚅 𝙱𝙾𝚃𝚂</a></b>
 ├📕 <b>𝙻𝙸𝙱𝚁𝙰𝚁𝚈 </b><b>:</b> <b><a href=https://github.com/pyrogram>𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</a></b>
 ├✏️<b> 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴</b> <b>:</b> <b><a href=https://www.python.org>𝙿𝚈𝚃𝙷𝙾𝙽 3</a></b>
@@ -47,6 +47,7 @@ class mr(object):
 
 
        🫡 <b>𝚅𝙰𝙰 𝙰𝚁𝚄𝙽𝙰𝙰𝙲𝙷𝙰𝙻𝙾 𝙽𝙴𝙴 𝚅𝙰𝚁𝚄𝚅𝙴𝙽𝙽𝚄 𝚃𝙷𝙴𝚁𝙸𝚈𝚄</b> 🫡
+
 
 """
 
@@ -73,15 +74,15 @@ class mr(object):
 
 •> <b>𝚂𝙴𝙽𝙳 𝙰𝙽𝚈 𝙵𝙸𝙻𝙴 𝙰𝙽𝙳 𝙲𝙻𝙸𝙲𝙺 𝚁𝙴𝙽𝙰𝙼𝙴 𝙾𝙿𝚃𝙸𝙾𝙽 𝙰𝙽𝙳 𝚃𝚈𝙿𝙴 𝙽𝙴𝚆 𝙵𝙸𝙻𝙴 𝙽𝙰𝙼𝙴 𝙰𝙽𝙳</b> \n <b>𝚂𝙴𝙽𝙳 𝚂𝙴𝙻𝙴𝙲𝚃 [ 𝙳𝙾𝙲𝚄𝙼𝙴𝙽𝚃, 𝚅𝙸𝙳𝙴𝙾, 𝙰𝚄𝙳𝙸𝙾 ]👈 𝙲𝙷𝙾𝙸𝙲𝙴 𝚃𝙷𝙸𝚂.</b>
 
-ℹ️ 𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/ajay_king_x>♚ ᴀᴊᴀʏ ♚</a>
+ℹ️ 𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/themastertheblaster>❣️ ∂εcσ∂εɾ รεεɱαɳ ❣️</a>
 """
 
 #⚠️ don't remove our credits 🙏😢😢
     DEV_TXT = """
 <b>𝚂𝙿𝙴𝙲𝙸𝙰𝙻 𝚃𝙷𝙰𝙽𝙺𝚂 & 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁𝚂</b>
 
-» <b>𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 </b>: <a href=https://t.me/ajay_king_x>♚ ᴀᴊᴀʏ ♚</a>
-» <b>𝙷𝙾𝚆 𝚃𝙾 𝙳𝙴𝙿𝙻𝙾𝚈 </b>: <a href=https://t.me/ajay_king_x>♚ᴀᴊᴀʏ♚</a>
+» <b>𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 </b>: <b><a href=https://t.me/themastertheblaster>❣️ ∂εcσ∂εɾ รεεɱαɳ ❣️</a></b>
+» <b>𝙷𝙾𝚆 𝚃𝙾 𝙳𝙴𝙿𝙻𝙾𝚈 </b>: <b><a href=https://t.me/mkv_bots>🤖 𝙼𝙺𝚅 𝙱𝙾𝚃𝚂🤖</a></b>
 
-• ❣️ <b>𝙾𝚄𝚁 𝙼𝙾𝚂𝚃 𝚂𝙿𝙴𝙲𝙸𝙰𝙻 𝚃𝙷𝙰𝙽𝙺𝚂 𝚃𝙾 </b><a href=https://mkv_bots></a>♚ ᴀᴊᴀʏ ♚</a>\n\n                   🙏🏻 𝗧𝗵𝗮𝗻𝗸 𝘆𝗼𝘂 🙏🏻        
+• ❣️ <b>𝙾𝚄𝚁 𝙼𝙾𝚂𝚃 𝚂𝙿𝙴𝙲𝙸𝙰𝙻 𝚃𝙷𝙰𝙽𝙺𝚂 𝚃𝙾 </b><a href=https://mkv_blasters>👑 𝙼𝙺𝚅 𝙱𝙻𝙰𝚂𝚃𝙴𝚁𝚂 👑</a></a>\n\n                   🙏🏻 𝗧𝗵𝗮𝗻𝗸 𝘆𝗼𝘂 🙏🏻        
 """
