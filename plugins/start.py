@@ -64,7 +64,7 @@ async def start(client, message):
 @Client.on_message(filters.private &( filters.document | filters.audio | filters.video ))
 async def send_doc(client, message):
     file = getattr(message, message.media.value)
-    filename = @mkv_blasters file.file_name
+    filename = file.file_name
     filesize = humanize.naturalsize(file.file_size)
     fileid = file.file_id
     await message.reply_text(
